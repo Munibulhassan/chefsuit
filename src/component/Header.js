@@ -19,7 +19,7 @@ export default function Header() {
                   <img src={logo} />
                 </a>
                 {(location.pathname != "/" &&
-      location.pathname != "/Login" &&
+      location.pathname != "/login" &&
       location.pathname != "/signup")?(
                 <nav class="navbar-expand-lg">
                   <div class="collapse navbar-collapse" id="navbarNav">
@@ -55,7 +55,7 @@ export default function Header() {
                               ? "nav-link active"
                               : "nav-link"
                           }
-                          href="/landscape"
+                          href="/Landscape"
                         >
                           Landscape
                         </a>
@@ -68,7 +68,7 @@ export default function Header() {
               </span>
               {location.pathname == "/" || location.pathname == "/login" ? (
                 <span>
-                  <span class="no_account">No Account?</span>
+                  <span class="no_account" onClick={()=>navigate('/signup')}>No Account?</span>
                   <button
                     class="btn btn-outline-success my-2 my-sm-0"
                   onClick={()=>{navigate('/signup')}}  
@@ -82,7 +82,10 @@ export default function Header() {
                 </span>
               ) : location.pathname == "/signup" ? (
                 <span>
-                  <span class="no_account">I have an Account?</span>
+                  <span class="no_account"
+                    onClick={()=>{navigate('/login')}}  
+                  
+                  >I have an Account?</span>
                   <button
                     class="btn btn-outline-success my-2 my-sm-0"
                     

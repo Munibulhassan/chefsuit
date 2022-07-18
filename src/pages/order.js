@@ -59,8 +59,8 @@ export default function Order() {
                         <span className="statuscolor" style={{backgroundColor:"#52ec7d "}}></span>
                         <span className="statusname">In transit</span>
                       </td>
-                      <td>
-                        <a href="#"> {`>`}</a>
+                    <td>
+                        <a href="#" onClick={()=>{handleShow()}}> {`>`}</a>
                       </td>
                     </tr>
                     <tr>
@@ -71,8 +71,8 @@ export default function Order() {
                         <span className="statuscolor" style={{backgroundColor:"#ECC252 "}}></span>
                         <span className="statusname">Preparing</span>
                       </td>
-                      <td>
-                        <a href="#"> {`>`}</a>
+                    <td>
+                        <a href="#" onClick={()=>{handleShow()}}> {`>`}</a>
                       </td>
                     </tr>
                     <tr>
@@ -83,8 +83,8 @@ export default function Order() {
                         <span className="statuscolor" style={{backgroundColor:"#ECC252 "}}></span>
                         <span className="statusname">Preparing</span>
                       </td>
-                      <td>
-                        <a href="#"> {`>`}</a>
+                    <td>
+                        <a href="#" onClick={()=>{handleShow()}}> {`>`}</a>
                       </td>
                     </tr>
                     <tr>
@@ -95,8 +95,8 @@ export default function Order() {
                         <span className="statuscolor" style={{backgroundColor:"#5552ec "}}></span>
                         <span className="statusname">On Hold</span>
                       </td>
-                      <td>
-                        <a href="#"> {`>`}</a>
+                    <td>
+                        <a href="#" onClick={()=>{handleShow()}}> {`>`}</a>
                       </td>
                     </tr>
                     <tr>
@@ -107,8 +107,8 @@ export default function Order() {
                         <span className="statuscolor" style={{backgroundColor:"#ECC252 "}}></span>
                         <span className="statusname">Preparing</span>
                       </td>
-                      <td>
-                        <a href="#"> {`>`}</a>
+                    <td>
+                        <a href="#" onClick={()=>{handleShow()}}> {`>`}</a>
                       </td>
                     </tr>
                     <tr>
@@ -119,8 +119,8 @@ export default function Order() {
                         <span className="statuscolor" style={{backgroundColor:"#ECC252 "}}></span>
                         <span className="statusname">Preparing</span>
                       </td>
-                      <td>
-                        <a href="#"> {`>`}</a>
+                    <td>
+                        <a href="#" onClick={()=>{handleShow()}}> {`>`}</a>
                       </td>
                     </tr>
                     <tr>
@@ -131,8 +131,20 @@ export default function Order() {
                         <span className="statuscolor" style={{backgroundColor:"#52ec7d "}}></span>
                         <span className="statusname">In transit</span>
                       </td>
-                      <td>
-                        <a href="#"> {`>`}</a>
+                    <td>
+                        <a href="#" onClick={()=>{handleShow()}}> {`>`}</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>102</td>
+                      <td>Steave Rocky</td>
+                     <td className="orderstatus">
+                        {" "}
+                        <span className="statuscolor" style={{backgroundColor:"#ECC252 "}}></span>
+                        <span className="statusname">Preparing</span>
+                      </td>
+                    <td>
+                        <a href="#" onClick={()=>{handleShow()}}> {`>`}</a>
                       </td>
                     </tr>
                     <tr>
@@ -144,7 +156,8 @@ export default function Order() {
                         <span className="statusname">Preparing</span>
                       </td>
                       <td>
-                        <a href="#"> {`>`}</a>
+                      <a href="#" onClick={()=>{handleShow()}}> {`>`}</a>
+
                       </td>
                     </tr>
                     <tr>
@@ -156,19 +169,8 @@ export default function Order() {
                         <span className="statusname">Preparing</span>
                       </td>
                       <td>
-                        <a href="#"> {`>`} </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>102</td>
-                      <td>Steave Rocky</td>
-                     <td className="orderstatus">
-                        {" "}
-                        <span className="statuscolor" style={{backgroundColor:"#ECC252 "}}></span>
-                        <span className="statusname">Preparing</span>
-                      </td>
-                      <td>
-                        <a href="#"> {`>`} </a>
+                      <a href="#" onClick={()=>{handleShow()}}> {`>`}</a>
+
                       </td>
                     </tr>{" "}
                     <tr>
@@ -180,7 +182,8 @@ export default function Order() {
                         <span className="statusname">Preparing</span>
                       </td>
                       <td>
-                        <a href="#"> {`>`} </a>
+                      <a href="#" onClick={()=>{handleShow()}}> {`>`}</a>
+
                       </td>
                     </tr>
                     <tr>
@@ -192,7 +195,8 @@ export default function Order() {
                         <span className="statusname">Preparing</span>
                       </td>
                       <td>
-                        <a href="#"> {`>`} </a>
+                      <a href="#" onClick={()=>{handleShow()}}> {`>`}</a>
+
                       </td>
                     </tr>
                     <tr>
@@ -204,7 +208,8 @@ export default function Order() {
                         <span className="statusname">Preparing</span>
                       </td>
                       <td>
-                        <a href="#"> {`>`} </a>
+                      <a href="#" onClick={()=>{handleShow()}}> {`>`}</a>
+
                       </td>
                     </tr>
                     <tr>
@@ -216,7 +221,8 @@ export default function Order() {
                         <span className="statusname">Preparing</span>
                       </td>
                       <td>
-                        <a href="#"> {`>`} </a>
+                      <a href="#" onClick={()=>{handleShow()}}> {`>`}</a>
+
                       </td>
                     </tr>
                   </tbody>

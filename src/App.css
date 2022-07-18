@@ -118,6 +118,10 @@
 .foot .container {
   margin: 0;
   max-width: 100%;
+  position:absolute;
+left:0;
+bottom:0;
+right:0;
 }
 .left-link {
   text-align: right;
@@ -377,7 +381,10 @@
   padding: 10px;
   margin-right: 15px;
 }
+.daysbtn:focus{
+  background: #ecc252;
 
+}
 .days-box .active:focus {
   background: #ecc252;
 }
@@ -510,3 +517,28 @@
 .item-detail-div span p {text-align: center; margin: 0; font-style: normal; font-weight: 400; font-size: 16px; color: #000000; opacity: 0.6; padding-top: 17px;}
 .preparing-dropdown-btn .btn-lg {background: #ECC252;border-radius: 10px;border: none;color: #fff;font-style: normal;font-weight: 600;font-size: 20px;padding: 19px 80px 19px 20px;}
 .closebtn{margin-left: 150px;}
+.landscape-search{width:250px !important; height: 45px !important;} 
+.form-inline{margin-top:29px ;}
+
+
+
+/* Landscape Mape View Page */
+
+
+
+.map-locator {display: flex;}
+.map-selector {padding: 0px 13px;}
+.landscape-mapview .container-fluid>.row {height: 100%;}
+.location-search-bar {display: flex; align-items: flex-end;}
+.landscape-mapview .form-inline {margin-bottom: 0 !important;}
+.landscape-mapview .container-fluid {padding: 0; height: 69vh;}
+.daysbtn:focus {font-family: Poppins; background-color: #ECC252;}
+.landscape-mapview .container-fluid .col-md-12 {padding: 0; height: 100%;}
+span.view-btns {display: flex; align-items: center; justify-content: center;}
+.landscape-mapview .container-fluid .col-md-12 iframe {width: 100%; height: 100%;}
+.map-locator .dropdown-toggle::after {position: absolute; right: 19px; top: 19px; font-size: 20px;}
+.landscape-mapview .form-control {width: 237px; height: 45px; border: 1px solid #EAEAEA; border-radius: 5px; background: #fff;}
+.landscape-mapview .form-control::placeholder {font-style: normal; font-weight: 400; font-size: 14px; color: #000000; opacity: 0.6;}
+.map-selector p {font-style: normal; font-weight: 500; font-size: 14px; color: #000000; opacity: 0.7; margin: 0; margin-bottom: 7px;}
+.map-locator .btn {width: 184px; height: 45px; border: 1px solid #EAEAEA; border-radius: 5px; text-align: left; font-style: normal; font-weight: 500; font-size: 14px; color: #000000; opacity: 0.7; padding-left: 14px;}
+.daysbtn {padding: 5px; font-family: Poppins; font-size: 16px; line-height: 24px; font-weight: 500; background-color: #F0F1F5; color: #1B1B1B; margin-left: 15px; width: 120px; border: none; border-radius: 5px; font-weight: 10px; font-style: bold;}

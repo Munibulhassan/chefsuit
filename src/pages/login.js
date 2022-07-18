@@ -1,9 +1,11 @@
 import React from 'react'
 import Header from '../component/Header'
 import Footer from '../component/Footer'
+import { useNavigate } from 'react-router-dom'
 
 
 export default function Login() {
+  const navigate = useNavigate()
   return (
     <>
     <Header/>
@@ -17,17 +19,20 @@ export default function Login() {
                     <p>Hey, Enter your details to get sign in to<br/> your Account</p>
                     <form class="login-form">
                         <div class="form-group">
-                          <label for="exampleInputEmail1">Email Address</label>
+                          <label >Email Address</label>
                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                         </div>
                         <div class="form-group">
-                          <label for="exampleInputPassword1">Password</label>
+                          <label>Password</label>
                           <input type="password" class="form-control" id="exampleInputPassword1"/>
                         </div>
                         <div class="form-group form-check">
                           <a href="#">Forgot Password?</a>
                         </div>
-                        <button type="submit" class="btn btn-primary">Login</button>
+                        <button type="submit" class="btn btn-primary"
+                    onClick={()=>{navigate('/order')}}  
+                        
+                        >Login</button>
                       </form>
                 </div>
             </div>
