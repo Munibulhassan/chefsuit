@@ -8,9 +8,9 @@ export default function Landscape() {
   return (
     <>
       <Header />
-      <section class="order-status-body">
+      <section class="order-status-body landscape-mapview ">
         <div class="container">
-          <div class="row">
+          <div class="row" >
             <div class="col-md-12">
               <div class="order-status-table">
                 <div class="heading-btn-box">
