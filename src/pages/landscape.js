@@ -4,7 +4,7 @@ import Header from "../component/Header";
 import ReactStars from "react-rating-stars-component";
 
 export default function Landscape() {
-  const {table,settable} = useState(true)
+  const [table,settable]= useState(true)
   return (
     <>
       <Header />

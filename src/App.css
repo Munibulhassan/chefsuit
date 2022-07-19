@@ -542,3 +542,8 @@ span.view-btns {display: flex; align-items: center; justify-content: center;}
 .map-selector p {font-style: normal; font-weight: 500; font-size: 14px; color: #000000; opacity: 0.7; margin: 0; margin-bottom: 7px;}
 .map-locator .btn {width: 184px; height: 45px; border: 1px solid #EAEAEA; border-radius: 5px; text-align: left; font-style: normal; font-weight: 500; font-size: 14px; color: #000000; opacity: 0.7; padding-left: 14px;}
 .daysbtn {padding: 5px; font-family: Poppins; font-size: 16px; line-height: 24px; font-weight: 500; background-color: #F0F1F5; color: #1B1B1B; margin-left: 15px; width: 120px; border: none; border-radius: 5px; font-weight: 10px; font-style: bold;}
+
+
+.modal-content{
+  margin-left: 62%;
+}

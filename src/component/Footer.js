@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     
-<Footer class="foot">
+<footer class="foot">
     <div class="container">
         <div class="row">
             <div class="col-md-3 left-link">
@@ -17,7 +17,7 @@ export default function Footer() {
             </div>
         </div>
     </div>
-</Footer>
+</footer>
 
 
   )
