@@ -7,7 +7,7 @@ export default function Header() {
   const location = useLocation();
   const navigate = useNavigate()
   
-  
+  console.log(location.pathname.toLowerCase())
   return (
     <section class="nav_bar">
       <div class="container">
@@ -19,15 +19,15 @@ export default function Header() {
                   <img src={logo} />
                 </a>
                 {(location.pathname != "/" &&
-      location.pathname != "/login" &&
-      location.pathname != "/signup")?(
+      location.pathname.toLowerCase() != "/login" &&
+      location.pathname.toLowerCase() != "/signup")?(
                 <nav class="navbar-expand-lg">
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
                         <a
                           class={
-                            location.pathname == "/order"
+                            location.pathname.toLowerCase()== "/order"
                               ? "nav-link active"
                               : "nav-link"
                           }
@@ -39,7 +39,7 @@ export default function Header() {
                       <li class="nav-item">
                         <a
                           class={
-                            location.pathname == "/financial"
+                            location.pathname.toLowerCase()== "/financial"
                               ? "nav-link active"
                               : "nav-link"
                           }
@@ -51,7 +51,7 @@ export default function Header() {
                       <li class="nav-item">
                         <a
                           class={
-                            location.pathname == "/landscape"
+                            location.pathname.toLowerCase()== "/landscape"
                               ? "nav-link active"
                               : "nav-link"
                           }
@@ -99,7 +99,10 @@ export default function Header() {
 
                 <span>
                   <span class="no_account">Chef Store</span>
-                  <img class="profile_logo" src={profile} />
+                  <img class="profile_logo" style={{ cursor:'pointer'}} 
+                  onClick={()=>{navigate('/profile')}}  
+                  
+                  src={profile} />
                 </span>
               )}
             </nav>
