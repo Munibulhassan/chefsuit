@@ -6,13 +6,12 @@ import { useLocation, useNavigate } from "react-router-dom";
 export default function Header() {
   const location = useLocation();
   const navigate = useNavigate()
-  const { innerWidth: width, innerHeight: height } = window;
-  const navHeight= 92
-  console.log(window.innerWidth)
-  console.log(location.pathname)
+  
+  
+  
   return (
     <section class="nav_bar">
-      <div class="container" style={{height:(window.innerWidth == 375 &&( location.pathname == "/login" || location.pathname == "/")) ? 92:null}}>
+      <div class="container" style={{height:(window.innerWidth < 375 &&( location.pathname == "/login" || location.pathname == "/")) ? 92:null}}>
         <div class="row faf">
           <div class="col-md-12">
             <nav class="navbar navbar-light bg-light">

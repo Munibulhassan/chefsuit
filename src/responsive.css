@@ -1,6 +1,6 @@
 
 
-@media only screen and (max-width: 1600px) {
+  @media only screen and (max-width: 1600px) {
 
     .slider-body{
         height: 768px;
@@ -23,11 +23,6 @@
     }
 
   }
-
-
-
-
-
   @media only screen and (max-width: 1440px) {
 
     .login_body .login-card h2 {
@@ -62,7 +57,6 @@
     }
 
   }
-
   @media only screen and (max-width: 1280px) {
 
     .foot {
@@ -70,7 +64,6 @@
     }
 
   }
-
   @media only screen and (max-width: 1024px) {
 
     .nav_bar .navbar {
@@ -189,7 +182,6 @@
     }
 
   }
-
   @media only screen and (max-width: 768px) {
 
     .right-link {
@@ -367,7 +359,6 @@
     }
 
   }
-
   @media only screen and (max-width: 480px) {
 
     .navbar-expand-lg {
@@ -527,12 +518,7 @@
     }
 
   }
-
-
-
-
-
-@media only screen and (max-width: 425px) {
+  @media only screen and (max-width: 425px) {
 
     .login_body .login-card {
         padding: 35px 37px;
@@ -633,9 +619,8 @@
         width: 119px;
     }
         
-}
-
-@media only screen and (max-width: 414px) {
+  }
+  @media only screen and (max-width: 414px) {
     .navbar-expand-lg {
         left: -89px;
     }
@@ -790,4 +775,4 @@
     }
 
 
-}
+  }
