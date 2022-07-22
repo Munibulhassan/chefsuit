@@ -1,0 +1,793 @@
+
+
+@media only screen and (max-width: 1600px) {
+
+    .slider-body{
+        height: 768px;
+    }
+
+    .modal-dialog{
+        margin-right: -75px;
+    }
+
+    .modal-content{
+        width: 85%;
+    }
+
+    .heading-div h3 {
+        width: 16rem;
+    }
+
+    .closebtn {
+        margin-left: 73px;
+    }
+
+  }
+
+
+
+
+
+  @media only screen and (max-width: 1440px) {
+
+    .login_body .login-card h2 {
+        font-size: 24px;
+    }
+    
+    .login_body .login-card > p {
+        font-size: 11px;
+    }
+    
+    .login_body .login-form {
+    }
+    
+    .login-form .form-control {
+        width: 325px;
+    }
+    
+    .btn-primary {
+        width: 325px;
+    }
+    
+    .login_body .login-card {
+        padding: 42px 75px;
+    }
+
+    .landscape-mapview .table tr > :first-child {
+        width: 191px;
+    }
+    
+    .landscape-mapview .table tr > :nth-child(2) {
+        width: 647px;
+    }
+
+  }
+
+  @media only screen and (max-width: 1280px) {
+
+    .foot {
+        height: 24px;
+    }
+
+  }
+
+  @media only screen and (max-width: 1024px) {
+
+    .nav_bar .navbar {
+        padding: 20px 49px;
+    }
+    
+    .no_account {
+        margin-right: 17px;
+    }
+    
+    .login_body .login-card h2 {
+        font-size: 22px;
+    }
+    
+    .login_body .login-card > p {
+        font-size: 10px;
+    }
+    
+    .login-form .form-control {
+        width: 314px;
+    }
+    
+    .btn-primary {
+        width: 314px;
+    }
+    
+    .login-form .form-check > a {
+        font-size: 12px;
+    }
+    
+    .login_body .login-card {
+        padding: 39px 67px;
+    }
+    
+    .foot {
+        height: 32px;
+    }
+    
+    .right-link {
+        padding: 0px 61px;
+    }
+    
+    .foot .col-md-5 > a {
+        font-size: 11px;
+    }
+    
+    .foot .col-md-3 > a {
+        font-size: 11px;
+    }
+    
+    .left-link {
+        padding-right: 83px;
+    }
+
+    .order-status-table .table tr > td:nth-child(3) {
+        padding-right: 51px;
+    }
+    
+    .navbar-expand-lg {
+        margin-left: -35px;
+    }
+
+    .order-status-table .table tr > td:nth-child(3) {
+        padding-right: 51px;
+    }
+    .navbar-expand-lg {
+        margin-left: -35px;
+    }
+    .modal-content {
+        width: 75%;
+    }
+    .heading-div h3 {
+        font-size: 18px;
+        width: 13rem;
+    }
+    .oreder-detail-div > h5 {
+        font-size: 15px;
+    }
+    .oreder-detail-div span h5 {
+        font-size: 15px;
+    }
+    .oreder-detail-div span p {
+        font-size: 15px;
+    }
+    .customer-detail-div h5 {
+        font-size: 15px;
+    }
+    .customer-detail-div p {
+        font-size: 15px;
+    }
+    .item-detail-div h5 {
+        font-size: 15px;
+    }
+    .item-detail-div span p {
+        font-size: 13px;
+    }
+    .status-div > :first-child > p {
+        font-size: 13px;
+    }
+    
+    .status-div h5 {
+        font-size: 15px;
+    }
+    .preparing-dropdown-btn .btn-lg {
+        font-size: 17px;
+        padding: 19px 64px 19px 20px;
+    }
+    .modal-dialog {
+        margin-right: -125px;
+    }
+
+    .heading-btn-box > .btn-primary {
+        width: 180px;
+        height: 54px;
+        font-size: 12px;
+    }
+
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .right-link {
+        padding: 0px 12px;
+    }
+
+    .login_body.col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 22.333333%;
+    }
+
+    .login_body .login-card h2 {
+        font-size: 21px;
+    }
+    
+    .login-form .form-control {
+        width: 300px;
+    }
+    
+    .btn-primary {
+        width: 300px;
+        margin-top: 31px;
+    }
+    
+    .nav_bar .btn-outline-success {
+        width: 119px;
+        height: 40px;
+        font-size: 13px;
+    }
+    
+    .login_body .login-card {
+        padding: 35px 61px;
+    }
+
+    .faf {
+        margin-right: 0 !important;
+    }
+    
+    .nav_bar> .container {
+        margin-right: 0 !important;
+        max-width: 100%;
+    }
+    
+    .foot {
+        height: 30px;
+    }
+
+    #navbarNav {
+        display: block;
+    }
+    
+    .navbar-nav {
+        flex-direction: initial;
+    }
+    
+    .nav-left-side {
+        position: relative;
+    }
+    
+    .navbar-expand-lg {
+        position: absolute;
+        left: 117px;
+        bottom: -50px;
+    }
+    
+    .nav_bar .container {
+        height: 122px;
+    }
+    
+    .nav_bar .navbar {
+        padding: 20px 62px;
+    }
+
+    .heading-btn-box > .btn-primary {
+        margin-top: 9px;
+    }
+    
+    #from {
+        width: 124px;
+        font-size: 11px;
+    }
+    
+    .days-box .days-btn {
+        width: 108px;
+        height: 40px;
+        font-size: 11px;
+    }
+    
+    .Financial-Report .order-status-table .table tr > :nth-child(4) {
+        width: 141px;
+    }
+
+    .order-status-table .table tr > td:nth-child(3) {
+        padding-right: 10px;
+    }
+
+    .order-status-table .table tr > td:nth-child(3) {
+        padding-right: 10px;
+    }
+    
+    .img-container>img {
+        width: 163px;
+    }
+    
+    .img-container {
+        clip-path: circle(40% at 50% 34%);
+        background: grey;
+    }
+    
+    .img-container p {
+        height: 50px;
+        font-size: 14px;
+    }
+    
+    .img-container p::before {
+        left: 45px;
+    }
+    
+    .profile-img-txt {
+        margin-top: -116px;
+    }
+    
+    .txt-container h1 {
+        font-size: 26px;
+    }
+    
+    .txt-container p {
+        font-size: 15px;
+    }
+    
+    .password_container .form-group .form-control {
+        width: 397px;
+        height: 49px;
+    }
+    
+    .password_container .form-group .btn-primary {
+        width: 193px;
+        height: 51px;
+    }
+    
+    .btn-primary {
+        font-size: 13px;
+    }
+
+    .login_body {
+        height: 82vh;
+    }
+
+    .foot .row .col-md-4 {
+        width: 155px;
+    }
+    
+    .left-link {
+        width: 204px;
+    }
+    
+    .right-link {
+        width: 329px;
+    }
+
+    .container, .container-sm {
+        max-width: 718px;
+    }
+    
+    .order-status-table .table tr > td:nth-child(3) {
+        padding-right: 53px;
+    }
+
+    #from {
+        width: 123px;
+    }
+
+    .hub-location {
+        padding: 9px 42px;
+    }
+
+  }
+
+  @media only screen and (max-width: 480px) {
+
+    .navbar-expand-lg {
+        left: 22px;
+        bottom: -55px;
+    }
+    
+    .nav_bar .navbar {
+        padding-right: 0;
+        padding-left: 17px;
+    }
+    
+    .order-status-table .table th {
+        font-size: 12px;
+    }
+    
+    .order-status-table .table tr > :nth-child(3) {
+        width: 141px;
+    }
+    
+    .order-status-table .table tr > :first-child {
+        padding-right: 13px;
+        width: 166px;
+    }
+    
+    .statuscolor {
+        margin-left: 20px;
+    }
+    
+    .right-link {
+        width: 298px;
+        padding-right: 0;
+    }
+
+    .order-status-table .table tr > td:nth-child(3) {
+        padding-right: 0;
+    }
+
+    .foot .row .col-md-4 {
+        width: 0;
+    }
+    
+    .left-link {
+        text-align: left;
+        padding: 0;
+        width: 85px;
+    }
+
+    .order-status-table .table td {
+        font-size: 11px;
+    }
+
+    .modal-content {
+        width: 60%;
+        margin-left: 117px;
+    }
+
+    .login_body .login-card h2 {
+        font-size: 26px;
+    }
+    
+    .login_body .login-card > p {
+        font-size: 14px;
+        width: 288px;
+    }
+    
+    .login-form .form-check > a {
+        font-size: 14px;
+    }
+
+    .no_account {
+        font-size: 10px;
+    }
+
+    .\.calander-box {
+        display: flex;
+        width: 307px;
+    }
+    
+    #from {
+        width: 133px;
+    }
+
+    .Financial-Report .order-status-heading{
+        line-height: 37px;
+        margin-bottom: 17px;
+    }
+
+    .days-box .days-btn {
+        width: 131px;
+        height: 40px;
+        font-size: 11px;
+        position: absolute;
+        top: 184px;
+    }
+    
+    .\36 0 {
+        left: 36%;
+    }
+    
+    .\39 0 {
+        right: 0;
+    }
+    
+    .table {
+        margin-top: 48px;
+    }
+
+    .Financial-Report .order-status-table .table tr > :nth-child(3) {
+        width: 290px;
+    }
+    
+    .Financial-Report .order-status-table .table tr > :nth-child(4) {
+        width: 259px;
+    }
+
+    .map-selector {
+        display: inline-block;
+    }
+    
+    .landscape-search {
+        width: 420px !important;
+    }
+    
+    .order-status-table .table tr > :first-child {
+        width: 250px;
+    }
+    
+    .landscape-table .table {
+        margin-top: -2px;
+    }
+    
+    .daysbtn {
+        width: 94px;
+        font-size: 13px;
+    }
+
+    .map-locator {
+        display: block;
+    }
+
+    .profile-img-txt {
+        padding-left: 26px;
+        padding-right: 17px;
+    }
+    
+    .txt-container h1 {
+        font-size: 20px;
+    }
+    
+    .txt-container p {
+        font-size: 12px;
+    }
+    
+    .hub-location-cards {
+        gap: 20px;
+    }
+
+  }
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+
+    .login_body .login-card {
+        padding: 35px 37px;
+    }
+    
+    .foot .row {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    .right-link {padding-left: 27px;}
+    
+    .foot .row .col-md-4 {
+        display: none;
+    }
+
+    .navbar-expand-lg {
+        left: -30px;
+    }
+    
+    .landscape-search {
+        width: 362px !important;
+    }
+    
+    .navbar-expand-lg .navbar-collapse .navbar-nav {overflow: hidden;}
+        
+    
+    .navbar-nav>.nav-item:first-child {
+        padding-left: 44px;
+    }
+    
+    .map-locator .btn {
+        width: 334px;
+    }
+    
+    .rating {
+        margin-top: 13px;
+    }
+    
+    .order-status-table .table tr > :first-child {vertical-align: middle;}
+    
+    
+    
+    .landscape-table .table tr > :nth-child(2) {
+        vertical-align: middle;
+    }
+    
+    .order-status-table .table tr > :nth-child(3) {
+        vertical-align: middle;
+    }
+
+    .landscape-table .table tr > :last-child {
+        padding-top: 24px;
+    }
+
+    .password_container .form-group .form-control {
+        width: 340px;
+    }
+    
+    .profile-img-txt {
+        padding-right: 26px;
+    }
+    
+    .txt-container h1 {
+        font-size: 17px;
+    }
+    
+    .txt-container p {
+        font-size: 10px;
+    }
+
+    .modal-content {
+        margin-left: 94px;
+    }
+    
+    .closebtn {
+        margin-left: 28px;
+    }
+
+    .no_account {
+        display: none;
+    }
+
+    .Financial-Report .order-status-table .table tr > :nth-child(2) {
+        vertical-align: middle;
+    }
+
+    .Financial-Report .order-status-table .table tr > :nth-child(2) {
+        vertical-align: middle;
+    }
+    
+    .\36 0 {
+        z-index: 9999;
+        left: 35%;
+    }
+    
+    .days-box .days-btn {
+        width: 119px;
+    }
+        
+}
+
+@media only screen and (max-width: 414px) {
+    .navbar-expand-lg {
+        left: -89px;
+    }
+    
+    .nav-link {
+        font-size: 12px;
+    }
+    
+    .navbar-nav>.nav-item:first-child {
+        padding-left: 154px;
+    }
+
+    .heading-btn-box > .btn-primary {
+        width: 165px;
+        height: 46px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .daysbtn {
+        width: 85px;
+        font-size: 12px;
+    }
+
+    .nav_bar .container {
+        height: 92px;
+    }
+    
+    .login_body .login-card h2 {
+        font-size: 19px;
+    }
+    
+    .login_body .login-card > p {
+        font-size: 10px;
+    }
+    
+    .login-form .form-control {
+        width: 267px;
+    }
+    
+    button.btn.btn-primary {
+        width: 267px;
+    }
+    
+    .login_body .login-card {
+        padding: 32px 21px;
+    }
+    
+    .foot {
+        height: 64px;
+    }
+
+    .modal-content {
+        margin-left: 74px;
+    }
+    
+    .heading-div h3 {
+        font-size: 14px;
+        width: 10rem;
+    }
+    
+    .closebtn {
+        margin-left: 45px;
+    }
+    
+    .customer-detail-div h5 {
+        font-size: 13px;
+    }
+    
+    .customer-detail-div p {
+        font-size: 12px;
+    }
+    
+    .preparing-dropdown-btn .btn-lg {
+        font-size: 13px;
+        padding: 13px 64px 12px 20px;
+    }
+    
+    .dropdown-toggle::after {
+        top: 11px;
+    }
+
+    .navbar-nav>.nav-item:first-child {
+        padding-left: 115px;
+    }
+
+    .Financial-Report .btn.btn-primary {
+        width: 179px;
+    }
+    
+    
+    .days-box .days-btn {
+        top: 180px;
+    }
+    
+    .heading-and-date > p {
+        font-size: 11px;
+    }
+    
+    .days-box .days-btn {
+        width: 96px;
+        font-size: 10px;
+    }
+    
+    .\36 0 {
+        left: 36%;
+    }
+
+    span.view-btns {
+        display: block;
+        padding-left: 20px;
+    }
+    
+    span.view-btns>.daysbtn:first-child {
+        margin-bottom: 10px;
+    }
+    
+    .landscape-table .order-status-heading {
+        margin-bottom: 0;
+        margin-top: 11px;
+    }
+    
+    .landscape-table .form-control {
+        width: 315px !important;
+    }
+    
+    .map-locator .btn {
+        width: 285px;
+    }
+
+    .img-container>img {
+        width: 123px;
+    }
+    
+    .img-container p {
+        height: 43px;
+        font-size: 12px;
+        left: 9px;
+        top: -29px;
+    }
+    
+    .profile-img-txt {
+        padding-right: 29px;
+    }
+    
+    .txt-container h1 {
+        padding-top: 15px;
+    }
+    
+    .password_container .form-group .form-control {
+        width: 290px;
+    }
+
+
+}

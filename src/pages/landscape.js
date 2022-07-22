@@ -8,7 +8,7 @@ export default function Landscape() {
   return (
     <>
       <Header />
-      <section class="order-status-body">
+      <section class="order-status-body landscape-table ">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -278,6 +278,8 @@ export default function Landscape() {
                   </tbody>
                 </table>
 ):(
+  <div className="landscape-mapview">
+
   <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-12">
@@ -288,6 +290,7 @@ export default function Landscape() {
                                 </div>
                             </div>
                         </div>
+  </div>
 )}
   
               </div>

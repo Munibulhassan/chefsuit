@@ -4,7 +4,7 @@ import Header from "../component/Header";
 import profile from '../Assets/profile-img.png'
 export default function Profile() {
   return (
-    <>
+    <div className="profile">
       <Header />
       <section class="order-status-body">
         <div class="container">
@@ -67,6 +67,6 @@ export default function Profile() {
     </section>
 
       <Footer />
-    </>
+    </div>
   );
 }

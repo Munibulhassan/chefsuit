@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import "./responsive.css"
 import Login from "./pages/login";
 import Profile from "./pages/profile";
 import Order from "./pages/order";
